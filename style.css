@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.navbar{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a:link, .a:visited{
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.a:hover, .a:active{
+    background-color: #0069D9;
+}
+
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url(foto1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+
+.article{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article h1{
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+    margin: 20px;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.article1{
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+input{
+    width: 400px;
+    height: 4px;
+    border-radius: 7px;
+    margin: 8px
+}
+
+.a1:link, .a:visited{
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.a1:hover, .a:active{
+    background-color: #0069D9;
+}
+
+.enter{
+    font-size: 21px;
+    padding: 20px 9px
+}
+
+.about-icons{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.icon{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 45px;
+    text-align: center;
+}
+
+.icon a{
+    font-size: 70px;
+    color: #007BFF;
+}
+
+.icon h1{
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.icon h2{
+    font-size: 14px;
+    color: black;
+    font-family: monospace;
+    font-weight: 100;
+}
+
+.datum{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.img{
+    width: 50%;
+    height: 500px;
+}
+.txt{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.txt  h1{
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.txt  p{
+    font-size: 20px;
+    color: black;
+    margin: 0px 100px;
+    padding: 10px;
+}
+
+.header1{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt2{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: 30px;
+}
+
+.txt2 h1{
+    font-size: 40px;
+    color: black;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.headercolor{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.color{
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.boxs{
+    width: 200px;
+    height: 200px;
+    border-radius: 75px;
+}
+
+.boxs img{
+    border-radius: 100px;
+}
+
+.boxs h1{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.boxs p{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.header2{
+    width: 100%;
+    height: 370px;
+    background-image: url(foto1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+}
+
+.row{
+    font-size: 20px;
+    color: white;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.input1{
+    font-size: 21px;
+    padding: 20px 20px;
+}
+
+.buttonnn{
+    background-color: #007BFF;
+    color: white;
+    padding: 13px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 7px;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: -5px;
+}
+
+.headerh1{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.text{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.text h1{
+    font-size: 20px;
+    color: rgb(56, 55, 55);
+    margin-left: -105px;
+    margin-top: 0px;
+}
+.link a{
+    font-size: 20px;
+    color:#0056B3;
+    margin: 10px;
+}
+.link h1{
+    color: black;
+    margin:15px;
+     
+}
+.link a:hover, a:active{
+        color:rgb(80, 80, 230);
+}
+a{
+    text-decoration: none;
+}
+.text{
+    width: 50%;
+    height: 250px;
+    display: flex;
+    align-items:center;
+}
+.text2{
+    width: 210px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 5;
+}
+.text2 a{
+    color:rgb(16, 181, 247);
+    font-size: 50px;
+    margin: 20px;
+    
+}
+.text2 a:hover, a:active{
+    color:#0056B3
+}
+
+
+
+
+
+
+
+
+
+
